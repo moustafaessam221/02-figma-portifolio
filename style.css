@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+    font-family: 'poppins';
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body {
+    background-color: #161513;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    width: 100%;
+    height: 82px;
+    font-size: 1rem;
+    padding: 0 15%;
+    overflow: hidden;
+}
+ul {
+    display: flex;
+    gap: 2rem;
+}
+li a {
+    text-decoration: none;
+}
+li a:hover{
+    color: #9A33FF;
+    transition: 0.3s;
+    width: 150%;
+    height: 150%;
+}
+
+/* Portifolio */
+
+.portifolio {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto 0 auto;
+    align-items: center;
+    max-width: 670px;
+    text-align: center;
+}
+.avatar {
+    width: 251px;
+    height: 223px;
+    margin-bottom: 40px;
+}
+.portifolio h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bolder;
+    /* from #FF8660 to #9A33FF */
+    height: fit-content
+}
+
+.portifolio h1 span {
+    background: linear-gradient(to right, #FF8660, #9A33FF);
+    color: transparent;
+    background-clip: text;
+}
+.portifolio p {
+    font-size: 1.125rem;
+    font-weight: light;
+    margin-bottom: 50px;
+}
+.portifolio button {
+    width: 195px;
+    height: 64px;
+    border-radius: 50px;
+    font-size: 21px;
+}
+.buttons {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.touch {
+    color: #161513;
+    border: 0px;
+    cursor: pointer;
+}
+.touch:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.cv {
+    background-color: #161513;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.cv:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+/* Experince in languages that are */
+
+.experince {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto 0 auto;
+    align-items: center;
+    max-width: 670px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    gap: 4rem;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills img {
+    width: 42px;
+    height: 42px;
+}
+
+/* Projects */
+.projects {
+    text-align: center;
+    margin-top: 100px;
+}
+.projects h1 {
+    background: linear-gradient(to right, #FF8660, #D5491D);
+    color: transparent;
+    background-clip: text;
+    font-size: 3rem;
+}
+
+.twoProjects {
+    max-width: 70%;
+    min-height: 300px;
+    margin: 40px auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.stProject {
+    min-width: 90%;
+    max-width: 300px;
+    
+}
+
+
+/* EXPERINCES */
+
+.experinceJobs {
+    text-align: center;
+    background: linear-gradient(to bottom, #5BADFF, #1373D1);
+    color: transparent;
+    background-clip: text;
+    margin-top: 80px;
+    font-size: 35px;
+}
+/* CV */
+.company {
+    padding: 0 auto;
+    margin: 50px auto;
+    width: 70%;
+}
+.experienceHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.experienceHeader span {
+    font-size: 14px;
+    color: gray;
+}
+.position {
+    display: flex;
+}
+.position img {
+    align-self: center;
+}
+.position h2 {
+    font-size: 21px;
+    margin-left: 10px;
+}
+.working {
+    margin-bottom: 50px;
+}
+.working p {
+    font-size: 14px;
+    color: gray;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #191919;
+}
+
+.footerContainer {
+    margin: 0px auto;
+    width: 70%;
+}
+footer h2 {
+    padding-top: 82px;
+    margin-bottom: 34px;
+}
+footer p {
+    font-size: 14px;
+    font-weight: lighter;
+    opacity: 50%;
+    margin-bottom: 22px;
+}
+.email {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.email svg {
+    align-self: center;
+}
+.socialMedia {
+    display: flex;
+    gap: 27px;
+    padding-bottom: 10px;
+}
